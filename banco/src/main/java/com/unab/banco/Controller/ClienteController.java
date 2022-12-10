@@ -23,6 +23,7 @@ import com.unab.banco.Service.ClienteService;
 @CrossOrigin("*")
 @RequestMapping("/cliente")
 public class ClienteController {
+    
     //@Autowired
     //private ClienteDao clienteDao; 
 
