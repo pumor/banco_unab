@@ -23,8 +23,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/cuenta")
 public class CuentaController {
     
-   //@Autowired
-    //private CuentaDao cuentaDao;
+    @Autowired
+    private CuentaDao cuentaDao;
 
     @Autowired
     private CuentaService cuentaService;
