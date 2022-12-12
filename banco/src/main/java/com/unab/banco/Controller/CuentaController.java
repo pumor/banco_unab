@@ -1,10 +1,8 @@
 package com.unab.banco.Controller;
 import com.unab.banco.Models.Cuenta;
-//import com.unab.banco.Dao.CuentaDao;
+import com.unab.banco.Dao.CuentaDao;
 import com.unab.banco.Service.CuentaService;
-
 import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -23,8 +21,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/cuenta")
 public class CuentaController {
     
-    //@Autowired
-    //private CuentaDao cuentaDao;
+    @Autowired
+    private CuentaDao cuentaDao;
 
     @Autowired
     private CuentaService cuentaService;

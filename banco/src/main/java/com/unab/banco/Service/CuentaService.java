@@ -1,9 +1,7 @@
 package com.unab.banco.Service;
 import com.unab.banco.Models.Cuenta;
 import com.unab.banco.Dao.CuentaDao;
-
 import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired; 
 import org.springframework.stereotype.Service; 
 import org.springframework.transaction.annotation.Transactional;
